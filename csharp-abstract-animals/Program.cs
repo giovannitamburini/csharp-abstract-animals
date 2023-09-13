@@ -23,6 +23,38 @@ namespace csharp_abstract_animals
 
             Una volta create le classi, nel programma istanziare alcuni animali e utilizzare i metodi implementati.
             */
+
+            // istanzio alcuni animali per testare i metodi
+            Dog Rex = new Dog();
+            Sparrow Titti = new Sparrow();
+            Eagle Olympia = new Eagle();
+            Dolphin Flipper = new Dolphin();
+
+
+            // testo i relativi metodi
+            Rex.Sleep();
+            Rex.AnimalSound();
+            Rex.WhatItEats();
+
+            Console.WriteLine();
+
+            Titti.Sleep();
+            Titti.AnimalSound();
+            Titti.WhatItEats();
+            
+            Console.WriteLine();
+
+            Olympia.Sleep();
+            Olympia.AnimalSound();
+            Olympia.WhatItEats();
+
+            Console.WriteLine();
+
+            Flipper.Sleep();
+            Flipper.AnimalSound();
+            Flipper.WhatItEats();
+
+            Console.WriteLine("-------------------------");
         }
     }
 }
