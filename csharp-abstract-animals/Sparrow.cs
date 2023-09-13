@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace csharp_abstract_animals
 {
-    public class Sparrow : Animal
+    public class Sparrow : Animal, IFlying
     {
         public override void AnimalSound()
         {
