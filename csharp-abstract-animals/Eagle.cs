@@ -17,5 +17,9 @@ namespace csharp_abstract_animals
         {
             Console.WriteLine("Mangio principalmente volpi, lepri, marmotte, conigli selvatici e faine");
         }
+        public void Fly()
+        {
+            Console.WriteLine("Sto volando");
+        }
     }
 }

@@ -17,5 +17,9 @@ namespace csharp_abstract_animals
         {
             Console.WriteLine("Mangio i vermi, fiocchi d'avena, noci, nocciole");
         }
+        public void Fly()
+        {
+            Console.WriteLine("Sto volando");
+        }
     }
 }

@@ -8,9 +8,6 @@ namespace csharp_abstract_animals
 {
     public interface ISwimming
     {
-        public void Swim()
-        {
-            Console.WriteLine("Sto nuotando");
-        }
+        public void Swim();
     }
 }

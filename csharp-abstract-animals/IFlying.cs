@@ -8,9 +8,10 @@ namespace csharp_abstract_animals
 {
     public interface IFlying
     {
-        public void Fly()
-        {
-            Console.WriteLine("Sto volando");
-        }
+        //public void Fly()
+        //{
+        //    Console.WriteLine("Sto volando");
+        //}
+        public void Fly();
     }
 }

@@ -17,5 +17,9 @@ namespace csharp_abstract_animals
         {
             Console.WriteLine("Mangio pesci, crostacei e calamari");
         }
+        public void Swim()
+        {
+            Console.WriteLine("Sto nuotando");
+        }
     }
 }
